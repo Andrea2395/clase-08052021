@@ -1,0 +1,1 @@
+prueba ansible_host=52.165.144.17 ansible_ssh_pass=Yoda2816*Naga ansible_python_interpreter=/usr/bin/python3

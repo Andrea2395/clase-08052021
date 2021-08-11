@@ -1,0 +1,6 @@
+-
+  name: Ejecutar bash file
+  hosts: localhost
+  tasks:
+    - name: Ejecutar script
+      script: /home/andreaRM/lab3/hello-world.sh
