@@ -1,0 +1,10 @@
+-
+  name: Usando lineinfile
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Insertar lineinfile
+      lineinfile:
+        dest: /home/andreaRM/projects/lineinfile.txt
+        line: 'Insertando una linea en el archivo.'
+        insertafter: 'Probando modulo lineinfile.'
